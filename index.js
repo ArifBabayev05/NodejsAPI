@@ -18,7 +18,7 @@ app.use(bodyParser.json())
 
 app.use(cors());
 
-mongoose.connect(`mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@cluster0.sjpf18q.mongodb.net/${process.env.DATABASE_NAME}?retryWrites=true&w=majority`,
+mongoose.connect(`mongodb+srv://ArifBabayev:Youtube2005@cluster0.sjpf18q.mongodb.net/products?retryWrites=true&w=majority`,
     (e) => {
         if (e) {
             console.log(e);
